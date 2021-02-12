@@ -26,8 +26,8 @@ class _FormPageState extends State<FormPage> {
     final form = formKey.currentState;
     if (form.validate()) {
       form.save();
-      if (this.id == 0) expenses.add(Expense(0, _amount, _date, _category));
-      else expenses.update(Expense(this.id, _amount, _date, _category));
+      // if (this.id == 0) expenses.add(Expense(0, _amount, _date, _category));
+      // else expenses.update(Expense(this.id, _amount, _date, _category));
       Navigator.pop(context);
     }
   }

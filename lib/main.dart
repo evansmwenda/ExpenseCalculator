@@ -2,8 +2,7 @@ import 'package:expenser/expenselistmodel.dart';
 import 'package:expenser/homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:scoped_model/scoped_model.dart';
-import 'ExpenseListModel.dart';
-import 'Expense.dart';
+
 
 void main() {
   final expenses = ExpenseListModel();
